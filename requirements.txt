@@ -1,0 +1,11 @@
+flask
+flask-session
+python-dotenv
+pymongo
+langchain
+langchain-openai
+langchain-mongodb
+openai
+langchain-community
+langchain_groq
+pypdf
