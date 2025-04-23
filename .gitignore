@@ -22,11 +22,6 @@ venv/
 *.egg-info/
 dist/
 build/
-
-
-# Requirements backup (if generated automatically)
-requirements.txt~
-
 # Test results
 *.coverage
 coverage.xml
