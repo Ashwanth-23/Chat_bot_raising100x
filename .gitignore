@@ -23,8 +23,6 @@ venv/
 dist/
 build/
 
-# Data and documents
-data/*.pdf
 
 # Requirements backup (if generated automatically)
 requirements.txt~
