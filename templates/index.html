@@ -196,7 +196,8 @@
             
             function startNewSession() {
                 const oldSessionId = sessionId;
-                fetch(`/generate_session?old_session_id=${encodeURIComponent(SessionId || '')}`)
+                fetch(`/generate_session?old_session_id=${encodeURIComponent(sessionId || '')}`)
+
                     .then(response => response.json())
                     .then(data => {
                         sessionId = data.session_id;
