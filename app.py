@@ -22,12 +22,14 @@ import requests
 from requests.auth import HTTPDigestAuth
 from datetime import datetime
 import uuid
+from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", secrets.token_urlsafe(16))
 
 # Environment variables

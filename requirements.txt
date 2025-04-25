@@ -9,3 +9,4 @@ openai
 langchain-community
 langchain_groq
 pypdf
+flask-cors
