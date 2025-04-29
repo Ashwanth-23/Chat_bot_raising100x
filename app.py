@@ -214,8 +214,8 @@ LEAD_EXTRACTION_PROMPT = """
         - contact_number
         - location
         - service_interest
-        - Appointment date
-        - Appointment Time
+        - Appointment_date
+        - Appointment_Time
         Return ONLY a valid JSON object with these fields with NO additional text before or after.
         If information isn't found, leave the field empty.
         
